@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { APP_BOOTSTRAP_LISTENER, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  templateUrl: "app.component.html",
 })
-export class AppComponent {
-  title = 'bases';
+export class AppComponent { 
+  
+  
 }
+//crear nueva propiedad llamada base = 5
